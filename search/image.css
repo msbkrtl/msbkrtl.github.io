@@ -1,5 +1,5 @@
 .containernav {
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(228, 228, 228);
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -19,7 +19,6 @@ a {
 
 .form {
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -27,24 +26,44 @@ a {
     width: 100%;
     background-color: rgb(255, 255, 255);
     height: 870px;
-    flex-wrap: wrap;
     border: none;
 }
 
-input {
-    border: none;
+input[type="text"] {
     border-width: 1px;
     border-style: solid;
     border-color: rgb(214, 214, 214);
     color: rgba(0, 0, 0, .87);
     font-size: 14px;
     height: 7%;
-    border-radius: 40px;
-    margin-right: 10px;
-    width: 35%;
+    border-right: none;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+    width: 17%;
     margin-bottom: 0.8%;
     font-size: 20px;
     padding-left: 16px;
+
+}
+
+input[type="submit"] {
+    width: 22%;
+    height: 7%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(214, 214, 214);
+    color: rgba(0, 0, 0, .87);
+    font-size: 14px;
+    width: 17%;
+    margin-bottom: 0.8%;
+    font-size: 20px;
+    padding-left: 16px;
+    border-left: none;
+    background-color: white;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    font-family: 'FontAwesome';
+    text-align: end;
 }
 
 input:focus,
@@ -54,12 +73,6 @@ input:hover {
 
 }
 
-input[type="submit"] {
-    width: 22%;
-    height: 7%;
-
-
-}
 
 @media (max-width: 976px) {
     .form {
