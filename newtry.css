@@ -195,3 +195,13 @@ img {
     bottom: 100%;
   }
 }
+
+.span_image {
+  z-index: 100;
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  left: 215px;
+  position: relative;
+  top: 76px;
+  white-space: nowrap;
+}
