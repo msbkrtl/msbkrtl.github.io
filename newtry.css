@@ -38,9 +38,19 @@ input {
   outline: none;
 }
 
-img {
+.search_img {
   padding-top: 140px;
   padding-bottom: 20px;
+  width: 272px;
+  transition-property: padding-top, width, height;
+  transition-delay: 0s, 0s, 0s;
+  transition-duration: 0.4s, 0.4s, 0.4s;
+  transition: padding-top 0.4s ease, width 0.4s ease, height 0.4s ease;
+  transition-timing-function: ease, ease, ease;
+}
+
+img {
+  padding-top: 140px;
   width: 272px;
   transition-property: padding-top, width, height;
   transition-delay: 0s, 0s, 0s;
@@ -83,7 +93,7 @@ img {
     position: absolute;
     top: 12%;
     z-index: 3;
-    right: 90%;
+    right: 91%;
     width: 10px;
     height: 10px;
     color: #9c9ea1;
@@ -200,8 +210,18 @@ img {
   z-index: 100;
   color: #4285f4;
   font: 16px/16px roboto-regular, arial, sans-serif;
-  left: 215px;
+  left: 103px;
   position: relative;
-  top: 76px;
+  top: -23px;
   white-space: nowrap;
+}
+
+.fa-camera {
+  position: absolute;
+  top: 12%;
+  z-index: 3;
+  right: 12%;
+  width: 24px;
+  height: 24px;
+  color: #9c9ea1;
 }
