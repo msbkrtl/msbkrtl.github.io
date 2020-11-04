@@ -13,34 +13,32 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="newtry.css" />
+    <link rel="stylesheet" href="advanced.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
     />
   </head>
+
   <body>
     <div class="containernav">
-      <a href="image.html">Google Image Search </a>
-      <a href="">Google Advanced Search </a>
+      <div class="logo"><img src="mainlogo.png" alt="" /></div>
+      <a href="index.html">Google Search </a>
+    </div>
+    <div class="header">
+      <h4>Advanced Search</h4>
     </div>
     <div class="main">
-      <img class="search_img" src="mainlogo.png" alt="" />
-      <form class="form" autocomplete="off" action="https://google.com/search">
-        <i class="fas fa-search"></i>
-        <i class="fas fa-microphone fa-lg"></i>
-        <input type="text" class="text" name="q" />
-        <input type="submit" class="submit" value="Google Search" />
-        <input type="submit" class="submit" value="I'm feeling lucky" />
+      <p>Find pages with...</p>
+      <form action="" method="get">
+        <label for="a1">all these words:</label><input id="a1" type="text" />
+        <label for="">this exact word or phrase:</label><input type="text" />
+        <label for="">any of these words:</label><input type="text" />
+        <label for="">none of these words:</label><input type="text" />
+        <button class="btn btn-primary" type="submit">Advanced Search</button>
       </form>
     </div>
     <footer class="footer">
-      <span class="left">
-        <a href="" class="">Advertising</a>
-        <a href="" class="">Business</a>
-        <a href="" class="">About</a>
-        <a href="" class="">How Search Works</a>
-      </span>
       <span class="right">
         <a href="" class="">Privacy</a>
         <a href="" class="">Terms</a>
@@ -62,6 +60,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    --> 
+    -->
   </body>
 </html>

@@ -13,7 +13,7 @@
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="newtry.css" />
+    <link rel="stylesheet" href="search.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
       rel="stylesheet"
@@ -22,11 +22,19 @@
 
   <body>
     <div class="containernav">
-      <a href="">Google Advanced Search </a>
-      <a href="index.html">Google Search </a>
+      <a href="image.html">Google Image Search </a>
+      <a href="advanced.html">Google Advanced Search </a>
     </div>
-
-    <div class="main"></div>
+    <div class="main">
+      <img class="search_img" src="mainlogo.png" alt="" />
+      <form class="form" autocomplete="off" action="https://google.com/search">
+        <i class="fas fa-search"></i>
+        <i class="fas fa-microphone fa-lg"></i>
+        <input type="text" class="text" name="q" />
+        <input type="submit" class="submit" value="Google Search" />
+        <input type="submit" class="submit" value="I'm feeling lucky" />
+      </form>
+    </div>
     <footer class="footer">
       <span class="left">
         <a href="" class="">Advertising</a>

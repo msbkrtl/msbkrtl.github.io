@@ -1,0 +1,141 @@
+* {
+  font-family: arial;
+}
+
+.containernav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  font-size: 13px;
+  font-family: arial, sans-serif;
+  color: rgba(0, 0, 0, 0.87);
+  margin-bottom: 0.4%;
+  background-color: #e5e5e5;
+}
+
+a {
+  text-decoration: none;
+  margin-right: 1.2%;
+  color: inherit;
+}
+
+img {
+  width: 92px;
+  height: 32px;
+}
+
+div > .logo {
+  margin-left: 1.2%;
+  margin-top: 1.2%;
+  padding-bottom: 1%;
+}
+
+input:focus {
+  box-shadow: 0px 0px 2px 0px rgb(0, 26, 255);
+}
+
+.footer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap-reverse;
+  align-content: center;
+  color: #5f6368;
+  font-size: 14px;
+  background-color: #f8f8f8;
+}
+
+.left {
+  background-color: #f8f8f8;
+  flex-grow: 10;
+  padding: 10px 0px 10px 8px;
+}
+
+.right {
+  background-color: #f8f8f8;
+  flex-grow: 0.2;
+  padding: 10px 0px 10px 0px;
+}
+
+.right > a {
+  padding-left: 10px;
+}
+
+.left > a {
+  padding-left: 10px;
+}
+
+@media only screen and (max-height: 641px) {
+  .text {
+    width: 90%;
+  }
+}
+
+@media (max-width: 805px) {
+  .footer {
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+  }
+
+  .left {
+    display: block;
+  }
+
+  .right {
+    position: absolute;
+    display: block;
+    width: 100%;
+    bottom: 100%;
+  }
+}
+.header > h4 {
+  color: #d93025;
+  margin-left: 45px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.header {
+  border-bottom: 1px solid #ebebeb;
+}
+
+label {
+  min-width: 187px;
+}
+
+.main {
+  max-width: 900px;
+  min-width: 200px;
+  width: 96%;
+  margin: 40px 2% 0 45px;
+}
+
+input {
+  border: 1px solid #d9d9d9;
+  border-top: 1px solid #c0c0c0;
+  font-size: 13px;
+  height: 25px;
+  padding: 1px 8px;
+  border-radius: 1px;
+  height: 30px;
+  user-select: none;
+  outline: none;
+  position: relative;
+  margin-left: 20px;
+  width: 570px;
+}
+
+button {
+  user-select: none;
+  font-size: 10px;
+  height: 35px;
+  min-width: 120px;
+  float: right;
+  margin-right: 13.65%;
+  border-radius: 1px;
+}

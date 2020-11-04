@@ -9,4 +9,5 @@
     "gitlens.codeLens.authors.enabled": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "editor.suggestSelection": "recentlyUsedByPrefix",
+    "compile-hero.disable-compile-files-on-did-save-code": true,
 }
